@@ -1,0 +1,10 @@
+.title {
+  font-family: "Poppins-Bold", sans-serif;
+  color: #EBEEF5;
+}
+
+.title.title--h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 16px;
+}

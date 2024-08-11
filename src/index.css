@@ -45,15 +45,37 @@ button {
   border: none;
   display: inline-block;
   background-color: transparent;
-  transition: background-color .3s linear;
+  transition: all .3s linear;
   cursor: pointer;
 }
 
+@font-face {
+  font-family: 'Poppins-Light';
+  src:url('../src/assets/styles/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src:url('../src/assets/styles/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-Medium';
+  src:url('../src/assets/styles/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src:url('../src/assets/styles/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-ExtraBold';
+  src:url('../src/assets/styles/fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+}
 
 body {
   font-size: 1rem;
   line-height: 1rem;
-  color: #454545;
+  font-family: "Poppins-Regular", sans-serif;
+  color: #8E95A9;
   min-height: 100vh;
-  background-color: #f0f8ff;
+  background-color: #121829;
 }
+
