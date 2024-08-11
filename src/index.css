@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+mark {
+  background-color: transparent;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  display: inline-block;
+  background-color: transparent;
+  transition: background-color .3s linear;
+  cursor: pointer;
+}
+
+
+body {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #454545;
+  min-height: 100vh;
+  background-color: #f0f8ff;
+}
