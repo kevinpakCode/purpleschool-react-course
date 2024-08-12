@@ -1,0 +1,25 @@
+.navbar__list {
+  display: flex;
+  gap: 16px;
+}
+
+.navbar__list-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  color: #A8AEBF;
+  padding: 12px 16px;
+  gap: 8px;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 1rem;
+}
+
+.navbar__list-item-link:hover {
+  color: #b0bde5;
+}
+
+.navbar__list-item-link--active,
+.navbar__list-item-link--active:hover {
+  color: #fff;
+}

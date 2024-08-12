@@ -1,0 +1,27 @@
+.inputBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  border: solid 1px #323B54;
+  border-radius: 12px;
+  padding: 20px 16px;
+  gap: 16px;
+  background-color: #0000001a;
+}
+
+.field {
+  background: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  color: #8b91a1;
+}
+
+.field::placeholder {
+  font-size: 0.875rem;
+  list-style: 1rem;
+  color: #475069;
+}
+

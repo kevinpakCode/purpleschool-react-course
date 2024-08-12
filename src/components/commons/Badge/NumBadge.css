@@ -1,0 +1,17 @@
+.numBadge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #1e1f29;
+  color: #fff;
+  font-size: 0.876rem;
+  font-family: "Poppins-Medium", sans-serif;
+}
+
+.numBadge--active {
+  background-color: #7B6EF6;
+  color: #fff;
+}

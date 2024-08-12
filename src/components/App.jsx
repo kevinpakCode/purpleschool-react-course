@@ -1,18 +1,25 @@
 import "./App.css"
-import { Button } from "./ui/Button/Button"
-import { Paragraphe } from "./ui/Paragraphe/Paragraphe"
-import { Title } from "./ui/title/Title"
+import { Header } from "./layouts/Header/Header"
+import { Main } from './layouts/Main/Main'
+import { Container } from "./layouts/Commons/Container/Container"
+import { SearchBox } from "./commons/SearchBox/SearchBox"
 
-function App() {
-
+const App = () => {
 
   return (
     <div className="app">
-      <div className="app__container">
-        <Title>Поиск</Title>
-        <Paragraphe >Введите название фильма, сериала или мультфильма для поиска и добавления в избранное.</Paragraphe>
-        <Button>Искать</Button>
-      </div>
+      <Header />
+      <Main>
+        <section className="search-section">
+          <Container>
+            <SearchBox className="search-section__box"/>
+          </Container>
+        </section>
+
+        <section className="movies-section">
+          <Container></Container>
+        </section>
+      </Main>
     </div>
   )
 }

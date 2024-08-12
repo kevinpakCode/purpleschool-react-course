@@ -1,0 +1,31 @@
+.header {
+  height: 80px;
+  padding: 16px 0;
+  background-color: #121829cc;
+}
+
+.header__logo {
+  display: inline-block;
+  height: 40px;
+  overflow: hidden;
+}
+
+.header__logo > img {
+  width: 40px;
+}
+
+.header__container {
+  max-width: 1232px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.header__navbar {
+  margin-left: auto;
+}
+
